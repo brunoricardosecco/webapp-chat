@@ -1,0 +1,41 @@
+.navBar {
+  border-style: solid;
+  border-bottom-color: #2474a9;
+  border-width: 0px 0px 3px 0px;
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  align-items: center;
+}
+
+.navBar img {
+  width: 15%;
+}
+
+.navBarMenuContainer {
+  margin-right: 30px;
+}
+
+.navBarMenuList {
+  list-style: none;
+  display: flex;
+  align-items: center;
+}
+
+.navBarMenuList li div {
+  margin-right: 30px;
+  font-size: 15px;
+  font-weight: bold;
+  color: #717171;
+  cursor: pointer;
+}
+
+@media (max-width: 600px) {
+  .navBarMenuList li div {
+    font-size: 10px;
+  }
+
+  .navBar img {
+    width: 25%;
+  }
+}
